@@ -1,0 +1,361 @@
+/* ------------------GENERAL------------------------ */
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #ccc;
+}
+
+main {
+  display: flex;
+  padding-top: 4rem;
+}
+
+/* -------------HEADER---------------- */
+
+header {
+  background-color: darkgrey;
+  position: fixed;
+  left: 0rem;
+  top: 0;
+  right: 0;
+  padding: 0 10rem 0 5rem;
+  border-radius: 30px;
+}
+
+.logo-nav-container {
+  display: flex;
+  /* le da al div la condicion flexbox
+    y se ponen los elementos en linea*/
+  justify-content: space-between;
+  /* ocupan todo el espacio entre ellos */
+  align-items: center;
+  /* alinea objetos en el centro vertical */
+  width: 1200px;
+  padding: 10px 0;
+}
+
+.subtitle a {
+  text-decoration: none;
+  color: rgb(100, 86, 86);
+  font-size: 2rem;
+}
+
+.push {
+  /* a dentro de div-enlaces. */
+  color: rgb(100, 86, 86);
+  /* color de lletra */
+  text-decoration: none;
+  /* treu les linies de peu. */
+}
+
+.push:hover {
+  /* hover marca el estilo del link cuando 
+      pasas el raton por encima. */
+  cursor: pointer;
+  /* sale la mano cuando pasas el raton */
+  background: #ccc;
+  padding: 18px 10px;
+}
+
+.enlaces {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.now {
+  background-color: #ccc;
+  padding: 18px 10px;
+}
+
+/* ------------principal central------------------------- */
+
+.principal {
+  font-size: 1rem;
+  background-color: #4dd69d;
+  border-radius: 30px;
+  height: 455px;
+  padding: 30px 50px;
+  border: 15px solid white;
+  overflow: auto;
+  text-align: left;
+  width: 60%;
+}
+
+/* ------------GALERIA LATERAL----------- */
+
+.barra_dreta {
+  flex-grow: 1;
+  height: 541px;
+  border: 2px solid black;
+  width: 35%;
+}
+
+.audios div {
+  display: flex;
+  align-items: center;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imatges {
+  width: 150px;
+  height: 150px;
+}
+
+.imatges1 {
+  background-image: url(../nysl_logo.png);
+  background-size: cover;
+}
+
+.imatges2 {
+  background-image: url(../soccer_image1.jpeg);
+  background-size: cover;
+}
+
+.imatges3 {
+  background-image: url(../soccer_image2.jpeg);
+  background-size: cover;
+}
+
+.imatges4 {
+  background-image: url(../soccer_image3.jpeg);
+  background-size: cover;
+}
+
+.imatges5 {
+  background-image: url(../design1_image1.jpeg);
+  background-size: cover;
+}
+
+.imatges6 {
+  background-image: url(../Updated-Banner-Photo.jpeg);
+  background-size: cover;
+}
+
+/* -------------AUIDOS LATERAL--------- */
+
+.audios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+audio {
+  height: 23px;
+  width: 176px;
+}
+
+.titles {
+  width: 188px;
+  padding-right: 10px;
+}
+/* --------------------INDEX------------------ */
+
+.events {
+  text-decoration: underline;
+}
+
+/* ----------------------GAME INFO TABLAS---------------- */
+
+.title_info {
+  text-align: center;
+}
+
+#fall_info {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#allgames {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.dates1 {
+  width: 592px;
+  text-align: left;
+  border-collapse: separate;
+  margin-bottom: 2rem;
+}
+
+.game_principal th,
+tr,
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.columndate {
+  padding-left: 35px;
+  vertical-align: top;
+}
+
+.columndate2 {
+  vertical-align: top;
+  padding-left: 35px;
+}
+
+.dates2 {
+  padding-right: 145px;
+}
+.additional {
+  margin-bottom: 40px;
+}
+
+.maps {
+  width: 600px;
+  height: 300px;
+  border: 0;
+}
+
+.dates1 a {
+  text-decoration: none;
+}
+
+.dates1 a:link {
+  /* enlace no activado */
+  color: black;
+}
+
+.dates1 a:visited {
+  color: black;
+}
+
+.dates1 a:hover {
+  color: crimson;
+}
+
+.titles_dates {
+  text-decoration: underline;
+}
+
+.october {
+  width: 155px;
+}
+
+/* ------------------- RULES LISTAS --------------------- */
+
+.son_UL {
+  list-style-type: square;
+}
+
+.rodona {
+  list-style-type: circle;
+}
+
+.start {
+  text-align: center;
+}
+
+.top {
+  text-decoration: none;
+}
+
+.nonumber {
+  list-style-type: lower-alpha;
+}
+
+.llistes h4 {
+  margin-bottom: 0px;
+  margin-top: 1rem;
+}
+
+.regulations {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.llistes ul,
+ol {
+  margin-top: 0;
+}
+
+/*---------------------- REGISTRATION ---------------------*/
+
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.street {
+  width: 454px;
+}
+
+.city {
+  width: 288px;
+}
+
+#parent {
+  width: 431px;
+}
+
+.menus {
+  display: flex;
+  margin-left: 8px;
+}
+
+.permission {
+  font-size: 11px;
+}
+
+#play {
+  text-decoration: underline;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.title_h5 {
+  margin-bottom: 10px;
+}
+
+.menu2 {
+  margin-left: 56px;
+}
+
+.menu3 {
+  margin-left: 60px;
+}
+
+#uniform {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.desplegable {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulari {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulari1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration {
+  margin-bottom: 13px;
+  display: flex;
+}
+
+.items1 label {
+  display: flex;
+  flex-grow: 1;
+}
+
+.items1 label input {
+  flex-grow: 1;
+}
+
+.items2 {
+  margin-right: 10px;
+}

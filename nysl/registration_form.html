@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles/nysl_3.css" />
+    <title>Rules & Policies Page</title>
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container logo-nav-container">
+        <div class="subtitle">
+          <a class="title" href="index.html">Northside Youth Soccer League</a>
+        </div>
+
+        <nav class="div-enlaces">
+          <div class="enlaces">
+            <div><a class="push" href="index.html">Home</a></div>
+            <div><a class="push" href="about.html">About NYSL</a></div>
+            <div><a class="push" href="contact.html">Contact</a></div>
+            <div><a class="push" href="lists.html">Rules&Policies</a></div>
+            <div>
+              <a class="push" href="game_info.html">Game Information</a>
+            </div>
+            <div>
+              <a class="push now" href="registration_form.html"
+                >Registration Form</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="principal llistes formulari">
+        <h1>Registration Form</h1>
+        <form action="../myproject/show_data.html" method="GET">
+          <div class="formulari1">
+            <div class="registration items1">
+              <label class="items2">
+                Player First Name:<input type="text" name="Player First Name"
+              /></label>
+              <label>
+                Last Name:<input class="lastname" type="text" name="Last Name"
+              /></label>
+            </div>
+            <div class="registration items1">
+              <label>
+                Street Address:<input
+                  class="street"
+                  type="text"
+                  name="Street Address"
+              /></label>
+            </div>
+
+            <div class="registration items1">
+              <label class="items2">
+                City:<input class="city" type="text" name="City"
+              /></label>
+              <label>
+                Zip Code:<input class="zip" type="text" name="Zip Code"
+              /></label>
+            </div>
+
+            <div class="registration items1">
+              <label class="items2">
+                Birth Date (mm/dd/yyyy):<input id="birth" type="date"
+              /></label>
+              Gender:
+              <label
+                ><input type="radio" name="Gender" checked /> Female
+              </label>
+              <label> <input type="radio" name="Gender" /> Male</label>
+            </div>
+
+            <div class="registration">
+              Grade:<label
+                ><input type="radio" name="Grade" checked /> Pre-School
+              </label>
+              <label><input type="radio" name="Grade" /> 1st </label>
+              <label><input type="radio" name="Grade" /> 2nd </label>
+              <label><input type="radio" name="Grade" /> 3rd </label>
+              <label><input type="radio" name="Grade" /> 4th </label>
+              <label><input type="radio" name="Grade" /> 5th </label>
+            </div>
+            <div class="registration items1">
+              <label>Parent/Guardian: <input type="text" id="parent" /> </label>
+            </div>
+            <div class="registration items1">
+              <label class="items2"
+                >Contact Phone: <input type="text" name="Contact Phone"
+              /></label>
+              <label
+                >Contact Email: <input type="text" name="Contact Email"
+              /></label>
+            </div>
+          </div>
+          <div class="registration title_h5">
+            <h5 class="title_h5">Which elementary schools do you live near?</h5>
+          </div>
+
+          <div class="menus">
+            <div>
+              <label>
+                First Closest School:<select
+                  class="desplegable"
+                  name="First Closest School"
+                >
+                  <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                  <option value="Greenbay">Greenbay</option>
+                  <option value="Howard A Yeager">Howard A Yeager</option>
+                  <option value="Marjorie P Hart">Marjorie P Hart</option>
+                  <option value="North Elementary">North Elementary</option>
+                  <option value="South Elementary">South Elementary</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="menu2">
+              <label
+                >Second Closest School:<select
+                  class="desplegable"
+                  name="Second Closest School"
+                >
+                  <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                  <option value="Greenbay">Greenbay</option>
+                  <option value="Howard A Yeager">Howard A Yeager</option>
+                  <option value="Marjorie P Hart">Marjorie P Hart</option>
+                  <option value="North Elementary">North Elementary</option>
+                  <option value="South Elementary">South Elementary</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="title_h5">
+            <h5 class="title_h5">
+              What position(s) do you normally play? (check all that apply)
+            </h5>
+          </div>
+          <div>
+            <label> <input type="checkbox" name="Forward" /> Forward </label>
+            <label class="menu2">
+              <input type="checkbox" name="Midfield" />Midfield</label
+            >
+          </div>
+          <div>
+            <label> <input type="checkbox" name="Defense" />Defense </label>
+            <label class="menu3"
+              ><input type="checkbox" name="Goalkeeper" />Goalkeeper</label
+            >
+          </div>
+          <div class="title_h5">
+            <h5 class="title_h5">
+              What position(s) do you want to play? (check all that apply)
+            </h5>
+          </div>
+          <div>
+            <label> <input type="checkbox" name="Forward" /> Forward </label>
+            <label class="menu2">
+              <input type="checkbox" name="Midfield" />Midfield</label
+            >
+          </div>
+          <div>
+            <label> <input type="checkbox" name="Defense" />Defense </label>
+            <label class="menu3"
+              ><input type="checkbox" name="Goalkeeper" />Goalkeeper</label
+            >
+          </div>
+
+          <div id="uniform">
+            <label
+              ><input type="checkbox" name="Uniform" />Already Have a Uniform
+            </label>
+          </div>
+          <div class="menus">
+            <div>
+              <label
+                >Jersey Size:<select class="desplegable" name="Jersey Size">
+                  <option value="Youth Small">Youth Small</option>
+                  <option value="Youth Medium">Youth Medium</option>
+                  <option value="Youth Large">Youth Large</option>
+                  <option value="Small">Small</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Large">Large</option>
+                  <option value="Extra-Large">Extra-Large</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="menu2">
+              <label>
+                Shorts Size:<select class="desplegable" name="Shorts Size">
+                  <option value="Youth Small">Youth Small</option>
+                  <option value="Youth Medium">Youth Medium</option>
+                  <option value="Youth Large">Youth Large</option>
+                  <option value="Small">Small</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Large">Large</option>
+                  <option value="Extra-Large">Extra-Large</option>
+                </select></label
+              >
+            </div>
+          </div>
+          <div class="permission">
+            <div>
+              <h6 id="play">Permission to Play</h6>
+              <p>
+                I, the parent or guardian of the minor registrant, agree that
+                the registrant and I will abide by all the rules of the
+                Northside Youth Soccer League (NYSL). In recognizing the
+                possibility of physical injury associated with soccer and in
+                consideration for the “League” accepting the registrant for its
+                soccer programs and activities, I hereby release, discharge,
+                and/or otherwise indemnify NYSL, their employees and associated
+                personnel and volunteers, including the facilities used for
+                practices and games, against any claim by or on behalf of the
+                registrant as a result of the registrant’s participation in the
+                program and/or being transported to or from NYSL sponsored
+                activities, which transportation
+              </p>
+              <p>
+                By signing below, I hereby agree and authorize the above. In
+                addition, by signing below, I also acknowledge that I have read
+                the cancellation policy and agree to its terms.
+              </p>
+            </div>
+            <div class="registration items1">
+              <label class="items2"
+                >Parent/Guardian Signature: <input type="text"
+              /></label>
+              <label>Date: <input type="date"/></label>
+            </div>
+          </div>
+
+          <input type="submit" value="enviar" />
+        </form>
+      </div>
+
+      <div class="barra_dreta">
+        <div class="audios">
+          <div class="champions">
+            <p class="titles">UEFA Champions League</p>
+            <audio controls>
+              <source
+                src="../nysl/photos_videos/UEFA_Champions_League.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+          </div>
+
+          <div class="USA">
+            <p class="titles">United States of America's National Anthem</p>
+            <audio controls>
+              <source
+                src="../nysl/photos_videos/United_States_of_America.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+          </div>
+        </div>
+        <div class="galeria">
+          <div class="imatges imatges1"></div>
+          <div class="imatges imatges2"></div>
+          <div class="imatges imatges3"></div>
+          <div class="imatges imatges4"></div>
+          <div class="imatges imatges5"></div>
+          <div class="imatges imatges6"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
