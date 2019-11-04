@@ -88,53 +88,12 @@ header {
 .barra_dreta {
   flex-grow: 1;
   height: 541px;
-  border: 2px solid black;
   width: 35%;
 }
 
 .audios div {
   display: flex;
   align-items: center;
-}
-
-.galeria {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.imatges {
-  width: 150px;
-  height: 150px;
-}
-
-.imatges1 {
-  background-image: url(../nysl_logo.png);
-  background-size: cover;
-}
-
-.imatges2 {
-  background-image: url(../soccer_image1.jpeg);
-  background-size: cover;
-}
-
-.imatges3 {
-  background-image: url(../soccer_image2.jpeg);
-  background-size: cover;
-}
-
-.imatges4 {
-  background-image: url(../soccer_image3.jpeg);
-  background-size: cover;
-}
-
-.imatges5 {
-  background-image: url(../design1_image1.jpeg);
-  background-size: cover;
-}
-
-.imatges6 {
-  background-image: url(../Updated-Banner-Photo.jpeg);
-  background-size: cover;
 }
 
 /* -------------AUIDOS LATERAL--------- */
@@ -358,4 +317,8 @@ input[type="text"] {
 
 .items2 {
   margin-right: 10px;
+}
+
+.returnedTable .cell {
+  background-color: white;
 }
